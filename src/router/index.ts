@@ -3,6 +3,11 @@ import BlankView from '../layout/BlankView.vue'
 
 const routes: Array<any> = [
   {
+    path: '/',
+    redirect: '/login',
+    hidden: true
+  },
+  {
     path: '/index.html',
     redirect: '/login',
     hidden: true
